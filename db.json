@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Strawberry Ice Cream",
+      "description": "Rasa stroberi dengan fla strawberry yang melimpah dan menyegarkan.",
+      "price": 18000,
+      "image": "/assets/Homemade Strawberry Ice Cream.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Vanilla Cloud",
+      "description": "Lembut seperti awan dengan sprinkle yang menambahkan sentuhan manis.",
+      "price": 16000,
+      "image": "/assets/vanila sprinkle.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Minty Bear",
+      "description": "Es krim mint segar dengan cokelat choco-chip lucu.",
+      "price": 19000,
+      "image": "/assets/choco mint.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Caramel Ice Cream",
+      "description": "Es krim dengan karamel yang melting dan manis.",
+      "price": 19000,
+      "image": "/assets/caramel-cookie-.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hazelnut Ice Cream",
+      "description": "Rasa hazelnut yang kaya dan lezat becampur dengan Ice Cream Vanilla yang lembut.",
+      "price": 20000,
+      "image": "/assets/Caramel Sweet Ice Cream.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Lotus Ice Cream",
+      "description": "Ice cream dengan rasa Biskuit Lotus yang khas.",
+      "price": 22000,
+      "image": "/assets/Homemade Biscoff Ice Cream (1).jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "tia",
+      "email": "syntia@gmail.com",
+      "password": "1234"
+    },
+    {
+      "username": "tia",
+      "email": "syntia@gmail.com",
+      "password": "1234",
+      "id": 2
+    }
+  ]
+}
