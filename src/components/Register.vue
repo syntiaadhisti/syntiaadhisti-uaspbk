@@ -61,7 +61,7 @@ export default {
         // Removed username uniqueness check to simplify registration
 
         // Lanjut daftar
-        const postRes = await axios.post('http://localhost:3001/users', {
+        const postRes = await axios.post('https://eskimtia-json.glitch.me/users', {
           username: this.regUsername.trim().toLowerCase(),
           email: this.regEmail.trim(),
           password: this.regPassword.trim()
@@ -78,7 +78,7 @@ export default {
     async handleLogin() {
       try {
         console.log('Login: attempting with', this.loginUsername, this.loginPassword);
-        const res = await axios.get(`http://localhost:3001/users?username=${this.loginUsername.trim().toLowerCase()}&password=${this.loginPassword.trim()}`);
+        const res = await axios.get(`https://eskimtia-json.glitch.me/users?username=${this.loginUsername.trim().toLowerCase()}&password=${this.loginPassword.trim()}`);
         console.log('Login: response', res);
         if (res.data.length > 0) {
           store.username = res.data[0].username;
